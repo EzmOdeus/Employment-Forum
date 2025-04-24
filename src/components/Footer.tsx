@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
                 <Mail size={20} className="text-[#DEB13C]" />
               </li>
               <li className="flex items-center justify-end">
-                <span className="text-gray-300 mr-2">+20 123 456 7890</span>
+                <span className="text-gray-300 mr-2">035454313</span>
                 <Phone size={20} className="text-[#DEB13C]" />
               </li>
             </ul>

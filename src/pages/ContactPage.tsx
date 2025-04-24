@@ -47,7 +47,7 @@ const ContactPage: React.FC = () => {
                 <div className="flex items-center justify-end">
                   <div>
                     <p className="font-bold">الهاتف</p>
-                    <p className="text-white/80">+20 123 456 7890</p>
+                    <p className="text-white/80">035454313</p>
                     <p className="text-white/80">+20 198 765 4321</p>
                   </div>
                   <div className="ml-4 bg-white/20 p-3 rounded-full">
