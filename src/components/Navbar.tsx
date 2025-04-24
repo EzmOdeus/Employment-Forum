@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Globe, ChevronDown } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
@@ -115,12 +115,12 @@ const NavLinks: React.FC<NavLinksProps> = ({ language }) => {
       >
         {language === 'ar' ? 'ورش العمل' : 'Workshops'}
       </Link>
-      <Link
+      {/* <Link
         to="/about"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200"
       >
         {language === 'ar' ? 'عن الملتقى' : 'About'}
-      </Link>
+      </Link> */}
       <Link
         to="/contact"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200"
