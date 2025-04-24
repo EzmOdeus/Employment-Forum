@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, MapPin, Users, Award, Target, Lightbulb } from 'lucide-react';
+import { Calendar, MapPin, Users, Award, Target, Lightbulb, Briefcase } from 'lucide-react';
 
 const AboutPage: React.FC = () => {
   return (
