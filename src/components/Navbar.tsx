@@ -20,14 +20,22 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img 
-                src="https://images.pexels.com/photos/4960001/pexels-photo-4960001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="Logo" 
-                className="h-12 w-12 rounded-full object-cover"
+              <img
+                src="/WhatsApp_Image_2025-04-24_at_2.22.12_PM-removebg-preview.png"
+                alt="Logo"
+                className="h-14 w-14 rounded-full object-cover"
               />
-              <div className={`ml-3 mr-3 text-right ${language === 'ar' ? 'text-right' : 'text-left'}`}>
-                <h1 className="text-lg font-bold text-[#7A0C2E]">الملتقى التوظيفي</h1>
-                <p className="text-xs text-gray-600">كلية التربية النوعية - جامعة الإسكندرية</p>
+              <div
+                className={`ml-3 mr-3 text-right ${
+                  language === "ar" ? "text-right" : "text-left"
+                }`}
+              >
+                <h1 className="text-lg font-bold text-[#7A0C2E]">
+                  الملتقى التوظيفي
+                </h1>
+                <p className="text-xs text-gray-600">
+                  كلية التربية النوعية - جامعة الإسكندرية
+                </p>
               </div>
             </Link>
           </div>
@@ -40,13 +48,13 @@ const Navbar: React.FC = () => {
               className="flex items-center text-gray-700 hover:text-[#7A0C2E] transition duration-200"
             >
               <Globe size={18} className="mr-1" />
-              <span>{language === 'ar' ? 'English' : 'العربية'}</span>
+              <span>{language === "ar" ? "English" : "العربية"}</span>
             </button>
             <Link
               to="/login"
               className="px-4 py-2 rounded-md text-white bg-[#7A0C2E] hover:bg-[#5A0A22] transition duration-200"
             >
-              {language === 'ar' ? 'تسجيل الدخول' : 'Login'}
+              {language === "ar" ? "تسجيل الدخول" : "Login"}
             </Link>
           </div>
 
@@ -76,7 +84,7 @@ const Navbar: React.FC = () => {
             to="/login"
             className="block text-center mt-4 px-4 py-2 rounded-md text-white bg-[#7A0C2E] hover:bg-[#5A0A22] transition duration-200"
           >
-            {language === 'ar' ? 'تسجيل الدخول' : 'Login'}
+            {language === "ar" ? "تسجيل الدخول" : "Login"}
           </Link>
         </div>
       )}

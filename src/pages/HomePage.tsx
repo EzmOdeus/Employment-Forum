@@ -42,8 +42,8 @@ const HomePage: React.FC = () => {
           />
           <FeatureCard
             icon={Award}
-            title="استشارات مهنية"
-            description="استشارات فردية من خبراء في مجال التوظيف لمساعدتك في تطوير مسارك المهني"
+            title="تدريب متخصص"
+            description="  من خبراء في مجال التوظيف لمساعدتك في تطوير مسارك المهني"
           />
           <FeatureCard
             icon={Users}
