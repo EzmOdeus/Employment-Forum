@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
                 <MapPin size={20} className="text-[#DEB13C]" />
               </li>
               <li className="flex items-center justify-end">
-                <span className="text-gray-300 mr-2">info@alexu-forum.edu.eg</span>
+                <span className="text-gray-300 mr-2"></span>
                 <Mail size={20} className="text-[#DEB13C]" />
               </li>
               <li className="flex items-center justify-end">

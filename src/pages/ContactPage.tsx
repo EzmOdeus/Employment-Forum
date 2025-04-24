@@ -36,7 +36,7 @@ const ContactPage: React.FC = () => {
                 <div className="flex items-center justify-end">
                   <div>
                     <p className="font-bold">البريد الإلكتروني</p>
-                    <p className="text-white/80">info@alexu-forum.edu.eg</p>
+                    <p className="text-white/80"></p>
                     <p className="text-white/80">support@alexu-forum.edu.eg</p>
                   </div>
                   <div className="ml-4 bg-white/20 p-3 rounded-full">
