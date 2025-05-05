@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl h-24">
+      {/* <div className="absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl h-24">
         <div className="container mx-auto px-4 h-full">
           <div className="bg-white shadow-xl rounded-2xl -mt-8 p-4 flex flex-col md:flex-row items-stretch">
             <div className="flex-1 mb-4 md:mb-0 md:mr-4">
@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
