@@ -26,10 +26,10 @@ const HomePage: React.FC = () => {
         />
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
-            عن الملتقى التوظيفي
+            عن الملتقى التوظيفي السابع
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto mb-8 leading-relaxed">
-            الملتقى التوظيفي لكلية التربية النوعية بجامعة الإسكندرية هو فعالية
+            الملتقى التوظيفي السابع لكلية التربية النوعية بجامعة الإسكندرية هو فعالية
             سنوية تهدف إلى ربط الطلاب والخريجين بفرص العمل والتدريب. يوفر
             الملتقى منصة للتواصل المباشر مع ممثلي الشركات والمؤسسات، بالإضافة
             إلى ورش عمل متخصصة لتطوير المهارات المهنية.
@@ -79,11 +79,11 @@ const HomePage: React.FC = () => {
 
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
-            كن جزءاً من الملتقى التوظيفي
+            كن جزءاً من الملتقى التوظيفي السابع
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed">
             سواء كنت طالباً، خريجاً، أو ممثلاً لشركة، سجل الآن للمشاركة في
-            الملتقى التوظيفي واستفد من الفرص المتاحة.
+            الملتقى التوظيفي السابع واستفد من الفرص المتاحة.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -18,10 +18,10 @@ const RegisterPage: React.FC = () => {
       <div className="bg-[#7A0C2E] py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl md:text-4xl font-bold text-white text-center mb-6">
-            التسجيل في الملتقى التوظيفي
+            التسجيل في الملتقى التوظيفي السابع
           </h1>
           <p className="text-white/90 text-center max-w-2xl mx-auto">
-            سجل الآن للمشاركة في الملتقى التوظيفي واستفد من فرص العمل وورش العمل المتاحة
+            سجل الآن للمشاركة في الملتقى التوظيفي السابع واستفد من فرص العمل وورش العمل المتاحة
           </p>
         </div>
       </div>
@@ -336,7 +336,7 @@ const RegisterPage: React.FC = () => {
                   </div>
                   <h2 className="text-2xl font-bold text-gray-800 mb-2">تم التسجيل بنجاح!</h2>
                   <p className="text-gray-600 max-w-xl mx-auto">
-                    شكراً لتسجيلك في الملتقى التوظيفي. تم إرسال رسالة تأكيد إلى بريدك الإلكتروني. يمكنك الآن تسجيل الدخول واستكشاف الفرص المتاحة.
+                    شكراً لتسجيلك في الملتقى التوظيفي السابع. تم إرسال رسالة تأكيد إلى بريدك الإلكتروني. يمكنك الآن تسجيل الدخول واستكشاف الفرص المتاحة.
                   </p>
                 </div>
                 

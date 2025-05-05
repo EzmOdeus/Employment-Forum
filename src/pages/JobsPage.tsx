@@ -54,7 +54,7 @@ const JobsPage: React.FC = () => {
             فرص العمل المتاحة
           </h1>
           <p className="text-white/90 text-center max-w-2xl mx-auto mb-8">
-            استعرض أحدث فرص العمل المتاحة من الشركات والمؤسسات المشاركة في الملتقى التوظيفي
+            استعرض أحدث فرص العمل المتاحة من الشركات والمؤسسات المشاركة في الملتقى التوظيفي السابع
           </p>
           
           <div className="bg-white rounded-lg shadow-md p-4 flex flex-col md:flex-row items-stretch">

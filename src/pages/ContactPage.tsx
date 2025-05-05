@@ -10,7 +10,7 @@ const ContactPage: React.FC = () => {
             اتصل بنا
           </h1>
           <p className="text-white/90 text-center max-w-2xl mx-auto">
-            تواصل معنا للاستفسار عن الملتقى التوظيفي أو للحصول على مزيد من المعلومات
+            تواصل معنا للاستفسار عن الملتقى التوظيفي السابع أو للحصول على مزيد من المعلومات
           </p>
         </div>
       </div>
@@ -145,10 +145,10 @@ const ContactPage: React.FC = () => {
             <div className="border-b border-gray-200 pb-4">
               <h3 className="font-bold text-gray-800 mb-2 text-right">
                 <MessageSquare className="inline-block ml-2 text-[#7A0C2E]" />
-                ما هي مواعيد الملتقى التوظيفي؟
+                ما هي مواعيد الملتقى التوظيفي السابع؟
               </h3>
               <p className="text-gray-600 text-right">
-                يقام الملتقى التوظيفي يوم 7 مايو 2025، من الساعة 10 صباحاً وحتى الساعة 6 مساءً.
+                يقام الملتقى التوظيفي السابع يوم 7 مايو 2025، من الساعة 10 صباحاً وحتى الساعة 6 مساءً.
               </p>
             </div>
             

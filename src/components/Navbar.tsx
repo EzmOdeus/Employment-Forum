@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
                 }`}
               >
                 <h1 className="text-lg font-bold text-[#7A0C2E]">
-                  الملتقى التوظيفي
+                  الملتقى التوظيفي السابع
                 </h1>
                 <p className="text-xs text-gray-600">
                   كلية التربية النوعية - جامعة الإسكندرية

@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div className="text-right">
-            <h3 className="text-xl font-bold mb-4">عن الملتقى التوظيفي</h3>
+            <h3 className="text-xl font-bold mb-4">عن الملتقى التوظيفي السابع</h3>
             <p className="text-gray-300 leading-relaxed mb-4">
               ملتقى توظيفي تنظمه كلية التربية النوعية بجامعة الإسكندرية لربط الطلاب والخريجين بفرص العمل والتدريب.
             </p>
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-12 pt-6 border-t border-gray-700 text-center">
           <p className="text-gray-300">
-            © 2025 الملتقى التوظيفي لكلية التربية النوعية - جامعة الإسكندرية. جميع الحقوق محفوظة.
+            © 2025 الملتقى التوظيفي السابع لكلية التربية النوعية - جامعة الإسكندرية. جميع الحقوق محفوظة.
           </p>
         </div>
       </div>

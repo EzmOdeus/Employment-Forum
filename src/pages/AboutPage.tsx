@@ -7,7 +7,7 @@ const AboutPage: React.FC = () => {
       <div className="bg-[#7A0C2E] py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl md:text-4xl font-bold text-white text-center mb-6">
-            عن الملتقى التوظيفي
+            عن الملتقى التوظيفي السابع
           </h1>
           <p className="text-white/90 text-center max-w-2xl mx-auto">
             تعرف على ملتقى التوظيف لكلية التربية النوعية بجامعة الإسكندرية
@@ -26,7 +26,7 @@ const AboutPage: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-[#7A0C2E] to-transparent"></div>
             <div className="absolute bottom-0 right-0 p-6">
               <h2 className="text-2xl font-bold text-white mb-2 text-right">
-                الملتقى التوظيفي لكلية التربية النوعية
+                الملتقى التوظيفي السابع لكلية التربية النوعية
               </h2>
               <div className="flex space-x-4 space-x-reverse">
                 <div className="flex items-center text-white/90">
@@ -46,7 +46,7 @@ const AboutPage: React.FC = () => {
               <div className="md:w-2/3">
                 <h3 className="text-xl font-bold text-gray-800 mb-4 text-right">نبذة عن الملتقى</h3>
                 <p className="text-gray-600 leading-relaxed text-right">
-                  الملتقى التوظيفي لكلية التربية النوعية بجامعة الإسكندرية هو فعالية سنوية تهدف إلى ربط الطلاب والخريجين بفرص العمل والتدريب. يوفر الملتقى منصة للتواصل المباشر مع ممثلي الشركات والمؤسسات، بالإضافة إلى ورش عمل متخصصة لتطوير المهارات المهنية.
+                  الملتقى التوظيفي السابع لكلية التربية النوعية بجامعة الإسكندرية هو فعالية سنوية تهدف إلى ربط الطلاب والخريجين بفرص العمل والتدريب. يوفر الملتقى منصة للتواصل المباشر مع ممثلي الشركات والمؤسسات، بالإضافة إلى ورش عمل متخصصة لتطوير المهارات المهنية.
                 </p>
                 <p className="text-gray-600 leading-relaxed mt-4 text-right">
                   يأتي الملتقى ضمن جهود الكلية لتحقيق التنمية المستدامة من خلال التعليم النوعي والذكاء الاصطناعي، وهو مبادرة رائدة تسعى لتوفير فرص حقيقية للطلاب والخريجين للانخراط في سوق العمل.

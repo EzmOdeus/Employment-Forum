@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 h-full flex flex-col justify-center relative z-10">
         <div className="text-center md:text-right max-w-3xl md:mr-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
-            الملتقى التوظيفي لكلية التربية النوعية
+            الملتقى التوظيفي السابع لكلية التربية النوعية
           </h1>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
             استكشف فرص العمل والتدريب وشارك في ورش العمل المتخصصة للانطلاق في
