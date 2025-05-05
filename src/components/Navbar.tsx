@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img
-                src="/WhatsApp_Image_2025-04-24_at_2.22.12_PM-removebg-preview.png"
+                src="/WhatsApp Image 2025-05-06 at 12.01.29 AM.jpeg"
                 alt="Logo"
                 className="h-14 w-14 rounded-full object-cover"
               />
@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
               onClick={toggleLanguage}
               className="px-3 py-3 flex items-center text-gray-700 hover:text-[#7A0C2E] transition duration-200 mr-2"
             > */}
-              {/* <Globe size={18} />
+            {/* <Globe size={18} />
             </button> */}
             <button
               onClick={toggleMenu}
