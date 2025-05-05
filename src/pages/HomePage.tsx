@@ -16,19 +16,26 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <Hero />
-      
+
       <div className="container mx-auto px-4 py-16">
         <CountdownTimer targetDate="2025-05-7" />
-        
+        <img
+          src="/WhatsApp Image 2025-05-06 at 12.00.06 AM.jpeg"
+          alt="banner"
+          // className=" object-cover"
+        />
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
             عن الملتقى التوظيفي
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto mb-8 leading-relaxed">
-            الملتقى التوظيفي لكلية التربية النوعية بجامعة الإسكندرية هو فعالية سنوية تهدف إلى ربط الطلاب والخريجين بفرص العمل والتدريب. يوفر الملتقى منصة للتواصل المباشر مع ممثلي الشركات والمؤسسات، بالإضافة إلى ورش عمل متخصصة لتطوير المهارات المهنية.
+            الملتقى التوظيفي لكلية التربية النوعية بجامعة الإسكندرية هو فعالية
+            سنوية تهدف إلى ربط الطلاب والخريجين بفرص العمل والتدريب. يوفر
+            الملتقى منصة للتواصل المباشر مع ممثلي الشركات والمؤسسات، بالإضافة
+            إلى ورش عمل متخصصة لتطوير المهارات المهنية.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           <FeatureCard
             icon={BriefcaseBusiness}
@@ -54,29 +61,31 @@ const HomePage: React.FC = () => {
 
         <div className="mb-16">
           <div className="flex justify-between items-center mb-8">
-            <Link to="/jobs" className="text-[#7A0C2E] hover:text-[#5A0A22] font-medium">
+            <Link
+              to="/jobs"
+              className="text-[#7A0C2E] hover:text-[#5A0A22] font-medium"
+            >
               عرض جميع الوظائف
             </Link>
-            <h2 className="text-2xl font-bold text-gray-800">
-              وظائف مميزة
-            </h2>
+            <h2 className="text-2xl font-bold text-gray-800">وظائف مميزة</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredJobs.map(job => (
+            {featuredJobs.map((job) => (
               <JobCard key={job.id} job={job} />
             ))}
           </div>
         </div>
-        
+
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             كن جزءاً من الملتقى التوظيفي
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed">
-            سواء كنت طالباً، خريجاً، أو ممثلاً لشركة، سجل الآن للمشاركة في الملتقى التوظيفي واستفد من الفرص المتاحة.
+            سواء كنت طالباً، خريجاً، أو ممثلاً لشركة، سجل الآن للمشاركة في
+            الملتقى التوظيفي واستفد من الفرص المتاحة.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/register"
@@ -93,7 +102,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </div>
-      
+
       <StatisticsSection />
       {/* <TestimonialsSection /> */}
     </div>
