@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
       <Hero />
       
       <div className="container mx-auto px-4 py-16">
-        <CountdownTimer targetDate="2025-04-28" />
+        <CountdownTimer targetDate="2025-05-7" />
         
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
