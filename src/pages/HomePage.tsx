@@ -6,7 +6,7 @@ import Hero from '../components/Hero';
 import CountdownTimer from '../components/CountdownTimer';
 import FeatureCard from '../components/FeatureCard';
 import StatisticsSection from '../components/StatisticsSection';
-import TestimonialsSection from '../components/TestimonialsSection';
+// import TestimonialsSection from '../components/TestimonialsSection';
 import { jobs } from '../data/mockData';
 import JobCard from '../components/JobCard';
 
@@ -95,7 +95,7 @@ const HomePage: React.FC = () => {
       </div>
       
       <StatisticsSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
     </div>
   );
 };

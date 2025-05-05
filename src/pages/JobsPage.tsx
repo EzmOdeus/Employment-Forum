@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Search, Briefcase, Filter, X } from 'lucide-react';
 import JobCard from '../components/JobCard';
 import { jobs } from '../data/mockData';
-import { Job } from '../types';
 
 const JobsPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');

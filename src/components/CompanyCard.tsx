@@ -1,6 +1,5 @@
 import React from 'react';
 import { Briefcase, ExternalLink } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { Company } from '../types';
 
 interface CompanyCardProps {
@@ -37,7 +36,7 @@ const CompanyCard: React.FC<CompanyCardProps> = ({ company }) => {
         
         <div className="flex items-center justify-between pt-4 border-t border-gray-200">
           <a
-            href={company.website}
+            href={`https://${company.website}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#7A0C2E] hover:text-[#5A0A22] flex items-center font-medium"

@@ -30,7 +30,7 @@ const AboutPage: React.FC = () => {
               </h2>
               <div className="flex space-x-4 space-x-reverse">
                 <div className="flex items-center text-white/90">
-                  <span>28 أبريل 2025</span>
+                  <span>7 مايو 2025</span>
                   <Calendar className="mr-2 h-5 w-5 text-[#DEB13C]" />
                 </div>
                 <div className="flex items-center text-white/90">
@@ -58,7 +58,7 @@ const AboutPage: React.FC = () => {
                   <h4 className="text-lg font-bold text-gray-800 mb-4 text-right">معلومات الملتقى</h4>
                   <ul className="space-y-3">
                     <li className="flex items-center justify-end">
-                      <span className="text-gray-700">28 أبريل 2025</span>
+                      <span className="text-gray-700">7 مايو 2025</span>
                       <Calendar className="ml-2 h-5 w-5 text-[#7A0C2E]" />
                     </li>
                     <li className="flex items-center justify-end">

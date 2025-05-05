@@ -43,13 +43,13 @@ const Navbar: React.FC = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <NavLinks language={language} />
-            <button
+            {/* <button
               onClick={toggleLanguage}
               className="flex items-center text-gray-700 hover:text-[#7A0C2E] transition duration-200"
             >
               <Globe size={18} className="mr-1" />
               <span>{language === "ar" ? "English" : "العربية"}</span>
-            </button>
+            </button> */}
             <Link
               to="/login"
               className="px-4 py-2 rounded-md text-white bg-[#7A0C2E] hover:bg-[#5A0A22] transition duration-200"
@@ -60,12 +60,12 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
-            <button
+            {/* <button
               onClick={toggleLanguage}
               className="px-3 py-3 flex items-center text-gray-700 hover:text-[#7A0C2E] transition duration-200 mr-2"
-            >
-              <Globe size={18} />
-            </button>
+            > */}
+              {/* <Globe size={18} />
+            </button> */}
             <button
               onClick={toggleMenu}
               className="text-gray-700 hover:text-[#7A0C2E] focus:outline-none"
@@ -101,7 +101,7 @@ const NavLinks: React.FC<NavLinksProps> = ({ language }) => {
     <>
       <Link
         to="/"
-        className="text-gray-700 hover:text-[#7A0C2E] transition duration-200"
+        className="text-gray-700 hover:text-[#7A0C2E] pl-3  transition duration-200"
       >
         {language === 'ar' ? 'الرئيسية' : 'Home'}
       </Link>
