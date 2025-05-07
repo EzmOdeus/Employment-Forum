@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             <div className="flex items-center bg-white/20 backdrop-blur-sm px-4 py-3 rounded-lg">
               <MapPin className="h-5 w-5 text-[#DEB13C]" />
               <span className="text-white mr-2">
-                كلية التربية النوعية - جامعة الإسكندرية
+                استاد الإسكندرية
               </span>
             </div>
           </div>
