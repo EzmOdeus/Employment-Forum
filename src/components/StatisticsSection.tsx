@@ -55,7 +55,7 @@ const StatisticsSection: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-[#7A0C2E] py-16">
+    <div className="bg-[#7A0C2E] py-16" id='statistics'>
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
           أرقام وإحصائيات الملتقى

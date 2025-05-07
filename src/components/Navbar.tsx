@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
@@ -10,10 +10,10 @@ const Navbar: React.FC = () => {
     setIsOpen(!isOpen);
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const toggleLanguage = () => {
     setLanguage(language === 'ar' ? 'en' : 'ar');
   };
-
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4">
@@ -50,12 +50,12 @@ const Navbar: React.FC = () => {
               <Globe size={18} className="mr-1" />
               <span>{language === "ar" ? "English" : "العربية"}</span>
             </button> */}
-            <Link
+            {/* <Link
               to="/login"
               className="px-4 py-2 rounded-md text-white bg-[#7A0C2E] hover:bg-[#5A0A22] transition duration-200"
             >
               {language === "ar" ? "تسجيل الدخول" : "Login"}
-            </Link>
+            </Link> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -80,12 +80,12 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="md:hidden bg-white py-4 px-4 shadow-inner">
           <MobileNavLinks language={language} />
-          <Link
+          {/* <Link
             to="/login"
             className="block text-center mt-4 px-4 py-2 rounded-md text-white bg-[#7A0C2E] hover:bg-[#5A0A22] transition duration-200"
           >
             {language === "ar" ? "تسجيل الدخول" : "Login"}
-          </Link>
+          </Link> */}
         </div>
       )}
     </nav>
@@ -99,42 +99,31 @@ interface NavLinksProps {
 const NavLinks: React.FC<NavLinksProps> = ({ language }) => {
   return (
     <>
-      <Link
-        to="/"
+      <a
+        href="/"
         className="text-gray-700 hover:text-[#7A0C2E] pl-3  transition duration-200"
       >
-        {language === 'ar' ? 'الرئيسية' : 'Home'}
-      </Link>
-      <Link
-        to="/jobs"
+        {language === "ar" ? "الرئيسية" : "Home"}
+      </a>
+
+      <a
+        href="#companies"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200"
       >
-        {language === 'ar' ? 'الوظائف' : 'Jobs'}
-      </Link>
-      <Link
-        to="/companies"
+        {language === "ar" ? "الشركات" : "Companies"}
+      </a>
+      <a
+        href="#statistics"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200"
       >
-        {language === 'ar' ? 'الشركات' : 'Companies'}
-      </Link>
-      <Link
-        to="/workshops"
+        {language === "ar" ? "ورش العمل" : "Workshops"}
+      </a>
+      <a
+        href="/about"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200"
       >
-        {language === 'ar' ? 'ورش العمل' : 'Workshops'}
-      </Link>
-      <Link
-        to="/about"
-        className="text-gray-700 hover:text-[#7A0C2E] transition duration-200"
-      >
-        {language === 'ar' ? 'عن الملتقى' : 'About'}
-      </Link>
-      <Link
-        to="/contact"
-        className="text-gray-700 hover:text-[#7A0C2E] transition duration-200"
-      >
-        {language === 'ar' ? 'اتصل بنا' : 'Contact'}
-      </Link>
+        {language === "ar" ? "عن الملتقى" : "About"}
+      </a>
     </>
   );
 };
@@ -142,42 +131,31 @@ const NavLinks: React.FC<NavLinksProps> = ({ language }) => {
 const MobileNavLinks: React.FC<NavLinksProps> = ({ language }) => {
   return (
     <div className="flex flex-col space-y-4">
-      <Link
-        to="/"
+      <a
+        href="/"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200 text-center py-2"
       >
-        {language === 'ar' ? 'الرئيسية' : 'Home'}
-      </Link>
-      <Link
-        to="/jobs"
+        {language === "ar" ? "الرئيسية" : "Home"}
+      </a>
+
+      <a
+        href="#companies"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200 text-center py-2"
       >
-        {language === 'ar' ? 'الوظائف' : 'Jobs'}
-      </Link>
-      <Link
-        to="/companies"
+        {language === "ar" ? "الشركات" : "Companies"}
+      </a>
+      <a
+        href="#statistics"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200 text-center py-2"
       >
-        {language === 'ar' ? 'الشركات' : 'Companies'}
-      </Link>
-      <Link
-        to="/workshops"
+        {language === "ar" ? "ورش العمل" : "Workshops"}
+      </a>
+      <a
+        href="/about"
         className="text-gray-700 hover:text-[#7A0C2E] transition duration-200 text-center py-2"
       >
-        {language === 'ar' ? 'ورش العمل' : 'Workshops'}
-      </Link>
-      <Link
-        to="/about"
-        className="text-gray-700 hover:text-[#7A0C2E] transition duration-200 text-center py-2"
-      >
-        {language === 'ar' ? 'عن الملتقى' : 'About'}
-      </Link>
-      <Link
-        to="/contact"
-        className="text-gray-700 hover:text-[#7A0C2E] transition duration-200 text-center py-2"
-      >
-        {language === 'ar' ? 'اتصل بنا' : 'Contact'}
-      </Link>
+        {language === "ar" ? "عن الملتقى" : "About"}
+      </a>
     </div>
   );
 };

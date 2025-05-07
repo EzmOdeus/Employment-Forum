@@ -1,6 +1,5 @@
 import React from 'react';
 import { Calendar, MapPin } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const Hero: React.FC = () => {
@@ -43,7 +42,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Link
               to="/register"
               className="bg-[#DEB13C] text-[#7A0C2E] px-8 py-3 rounded-md text-lg font-bold hover:bg-[#c99b2c] transition-all transform hover:-translate-y-1 shadow-lg"
@@ -56,7 +55,7 @@ const Hero: React.FC = () => {
             >
               تصفح الوظائف
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 

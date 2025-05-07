@@ -1,36 +1,32 @@
 import React from 'react';
 import { Briefcase as BriefcaseBusiness, GraduationCap, Award, Users } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 import Hero from '../components/Hero';
-import CountdownTimer from '../components/CountdownTimer';
 import FeatureCard from '../components/FeatureCard';
 import StatisticsSection from '../components/StatisticsSection';
 // import TestimonialsSection from '../components/TestimonialsSection';
-import { jobs } from '../data/mockData';
-import JobCard from '../components/JobCard';
+import LogoGrid from '../components/logo';
 
 const HomePage: React.FC = () => {
-  const featuredJobs = jobs.slice(0, 3);
 
   return (
     <div>
       <Hero />
 
       <div className="container mx-auto px-4 py-16">
-        <CountdownTimer targetDate="2025-05-7" />
+        {/* <CountdownTimer targetDate="2025-05-7" /> */}
         <img
           src="/WhatsApp Image 2025-05-06 at 12.00.06 AM.jpeg"
           alt="banner"
           // className=" object-cover"
         />
-        <div className="mb-16">
+        <div className="my-16">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
             عن الملتقى التوظيفي السابع
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto mb-8 leading-relaxed">
-            الملتقى التوظيفي السابع لكلية التربية النوعية بجامعة الإسكندرية هو فعالية
-            سنوية تهدف إلى ربط الطلاب والخريجين بفرص العمل والتدريب. يوفر
+            الملتقى التوظيفي السابع لكلية التربية النوعية بجامعة الإسكندرية هو
+            فعالية سنوية تهدف إلى ربط الطلاب والخريجين بفرص العمل والتدريب. يوفر
             الملتقى منصة للتواصل المباشر مع ممثلي الشركات والمؤسسات، بالإضافة
             إلى ورش عمل متخصصة لتطوير المهارات المهنية.
           </p>
@@ -59,7 +55,7 @@ const HomePage: React.FC = () => {
           />
         </div>
 
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <div className="flex justify-between items-center mb-8">
             <Link
               to="/jobs"
@@ -75,7 +71,7 @@ const HomePage: React.FC = () => {
               <JobCard key={job.id} job={job} />
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
@@ -85,7 +81,8 @@ const HomePage: React.FC = () => {
             سواء كنت طالباً، خريجاً، أو ممثلاً لشركة، سجل الآن للمشاركة في
             الملتقى التوظيفي السابع واستفد من الفرص المتاحة.
           </p>
-
+          <LogoGrid />
+          {/* 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/register"
@@ -99,7 +96,7 @@ const HomePage: React.FC = () => {
             >
               سجل كشركة
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 
