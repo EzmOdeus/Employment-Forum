@@ -177,19 +177,19 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-  
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+    transition: "transform 0.3s ease",
+    "&:hover": {
+      transform: "scale(1.05)",
+    },
     padding: "8px",
   },
   logo: {
     maxWidth: "100%",
     maxHeight: "100%",
     borderRadius: "10px",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-    transition: "transform 0.3s ease",
-    "&:hover": {
-      transform: "scale(1.05)",
-    },
-
+    padding: "5px",
+    
   },
 };
 
